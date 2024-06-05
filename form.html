@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Социальная сеть ВКонтакте</title>
+	<link rel="shortcut icon" href="icon.png"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+                <div class="fun"><a href="./page2.html">Функционал и возможности</a></div>
+		<div class="fun"><a href="./page3.html">Регистрация профиля</a></div>
+		<div class="fun"><a href="./page4.html">Установление контактов</a></div>
+		<div class="fun"><a href="./page5.html">Мобильное приложение "ВКонтакте"</a></div>
+		<div class="fun"><a href="./main.html">Главная страница</a></div>
+        </div>
+    </header>
+	
+	<hr>
+	<div class="form">
+	<form id="forma">
+    <table cellspacing="15">
+        <tr>
+            <td><label for="namefield">Имя</label></td>
+            <td><input required id="namefield" type="text" name="name"></td>
+        </tr>
+		<br>
+        <tr>
+            <td><label for="lastnamefield">Фамилия</label></td>
+            <td><input required id="lastnamefield" type="text" name="lastname"></td>
+        </tr>
+		<tr>
+		<td><label for="start">Дата рождения</label></td>
+
+		<td><input required type="date" id="start" name="start" min="1910-01-01" max="2024-05-30" /> </td>
+
+		<tr> <td>Пол </td></tr>
+        
+<tr>
+	<td><input required name="pol" type="radio"> Мужской</td>
+    <td><input required name="pol" type="radio"> Женский</td>
+	</tr>
+
+ <tr>
+            <td><label for="con">Контантные данные</label></td>
+            <td><input id="con" type="text" name="con"></td>
+        </tr>
+		<tr>
+		  <td><label for="body">Ваш любимый цвет</label></td>
+		<td><input type="color" id="body" name="body" /></td>
+	   </tr>
+	   <tr>
+	   
+            <td><label for="otv">Ваш отзыв</label></td>
+			</tr>
+			<tr >
+		
+            <td><form required id="otv" style="width: 250px">
+			<textarea form="forma" cols="50"></textarea>
+			</form></td>
+	  
+	   </tr>
+	 <tr>
+    <td colspan="2" style="text-align: center" style=color: "#F0FFFF"><input type="submit" value="Отправить"></td>
+        </tr>
+		
+    </table>
+	</div>
+
+	</br>	</br>	</br>	</br>
+	<footer>
+	<div class="end">
+	<hr>
+	<p> Georgiy©. Все права защищены, 2024 </p>
+	</div>
+	</footer>
+
+	</form>
+</body>
+</html>
